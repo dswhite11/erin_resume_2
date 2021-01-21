@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    background-color: #9CD2C6;
+    align-items: center;
+    justify-content: center;
+    color: #69664C;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar::before {
+    display: inline-block;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.nav-bar::after {
+    display: inline-block;
+    content: "";
+    width: 20%;
+    height: 1px;
+    background-color: white;
+    margin-right: 100px;
+}
